@@ -1,0 +1,28 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+	<title>nicegithub</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m24 45c-11.61 0-21-9.39-21-21 0-11.61 9.39-21 21-21 11.61 0 21 9.39 21 21 0 11.61-9.39 21-21 21z"/>
+		</clipPath>
+		<image  width="48" height="48" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwAQMAAABtzGvEAAAAAXNSR0IB2cksfwAAAAZQTFRFjZKYjZKYgDV4zwAAAAJ0Uk5T//xRvI59AAAAEUlEQVR4nGNkAAPGUYoqFCMAIXkAMkKTWI8AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		.s0 { fill: #000000 } 
+		.s1 { fill: #c9d1d9 } 
+		.s2 { fill: #0d1117 } 
+		.s3 { fill: none;stroke: #c9d1d9;stroke-linecap: round;stroke-width: 2.3 } 
+	</style>
+	<g clip-path="url(#cp1)">
+		<path id="Layer 2" fill-rule="evenodd" class="s0" d="m24 45c-11.6 0-21-9.4-21-21 0-11.6 9.4-21 21-21 11.6 0 21 9.4 21 21 0 11.6-9.4 21-21 21z"/>
+		<use id="Layer 1" href="#img1" x="0" y="0"/>
+	</g>
+	<path fill-rule="evenodd" class="s1" d="m24 31.5c-5.8 0-10.5-4.7-10.5-10.5 0-5.8 4.7-10.5 10.5-10.5 5.8 0 10.5 4.7 10.5 10.5 0 5.8-4.7 10.5-10.5 10.5z"/>
+	<path fill-rule="evenodd" class="s2" d="m18 20.3c-1.2-0.1-2.3-1.1-2.3-2.3 0-1.2 1.1-2.3 2.3-2.3 1.2 0 2.3 1.1 2.3 2.3 0 1.2-1.1 2.2-2.3 2.2z"/>
+	<path fill-rule="evenodd" class="s2" d="m30 20.3c-1.2-0.1-2.3-1.1-2.3-2.3 0-1.2 1.1-2.3 2.3-2.3 1.2 0 2.3 1.1 2.3 2.3 0 1.2-1.1 2.2-2.3 2.2z"/>
+	<path class="s3" d="m13.5 30c3 3 6 3 7.5 1.5"/>
+	<path class="s3" d="m34.5 30c-3 3-6 3-7.5 1.5"/>
+	<path class="s3" d="m15 33c2.3 3.8 5.3 4.5 7.5 4.5"/>
+	<path class="s3" d="m33 33c-2.3 3.8-5.3 4.5-7.5 4.5"/>
+	<path class="s3" d="m19.5 34.5c1.5 3 4.5 3.8 6 3.8"/>
+	<path class="s3" d="m28.5 34.5c-1.5 3-4.5 3.8-6 3.8"/>
+</svg>
