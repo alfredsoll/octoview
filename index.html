@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OctoView</title>
+  <link rel="stylesheet" href="style.css" />
+   <link rel="icon" type="image/svg+xml" href="bglogo.svg">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="page-wrapper">
+    <nav class="navbar">
+    <div class="container nav-container">
+        <a href="index.html"><h1 class="logo">OctoView</h1></a>
+        <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+
+    <header class="hero">
+    <div class="container hero-content">
+        
+        <div class="abstract-shape"></div>
+        <h2>Discover GitHub profiles like never before</h2>
+        <p>Enter a username and explore the data through interactive charts and lists</p>
+
+
+        <form id="userForm">
+        <input
+            type="text"
+            id="usernameInput"
+            placeholder="e.g torvalds"
+            required
+            autocomplete="off"
+        />
+        <button type="submit">Serach</button>
+        </form>
+
+        <p id="error" class="error hidden"></p>
+    </div>
+    </header>
+
+    <main class="container">
+        <section id="profileSection" class="hidden">
+        <div class="profile-header">
+            <img id="avatar" alt="Avatar" />
+            <div class="profile-info">
+            <h2 id="name"></h2>
+            <p><strong>Description:</strong> <span id="bio"></span></p>
+            <p><strong>Followers:</strong> <span id="followers"></span></p>
+            <p><a id="profileLink" href="#" target="_blank">Se på GitHub</a></p>
+            </div>
+        </div>
+
+        <div class="charts-container">
+            <div class="chart-box">
+            <h3>Programming Languages</h3>
+            <canvas id="languageChart"></canvas>
+            </div>
+            <div class="chart-box">
+            <h3>Repo-types</h3>
+            <canvas id="repoTypeChart"></canvas>
+            </div>
+        </div>
+
+        <div class="repo-list-container">
+            <h3>Repositories</h3>
+            <ul id="repoList"></ul>
+        </div>
+        </section>
+    </main>
+
+
+    <footer>
+    <p>Made with ❤️ by <span class="shiny-name">Alfredsoll</span></p>
+    </footer>
+
+
+</div>
+    <script src="script.js"></script>
+
+</body>
+</html>
